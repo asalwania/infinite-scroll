@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.users {
+  border: 1px solid black;
+  height: 300px;
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.user {
+  border: 1px solid red;
+  padding: 10px;
+  align-text: center;
+}
+
+.sentinal {
+  border: 1px solid blue;
+  padding: 2px;
+  border-radius: 2px;
+}
